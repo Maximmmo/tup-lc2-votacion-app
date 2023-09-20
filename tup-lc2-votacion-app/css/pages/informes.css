@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
+
+thead{
+    text-align: center;
+    color: black;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom:  2px solid black;
+    
+}
+
+th{
+    width: 1024px;
+    margin: 1 auto 50px auto;
+    border-radius: 15px;
+    border: 2px solid black;
+    border-collapse: collapse;
+     background-color: rgb(250, 250, 250);
+     box-sizing: border-box;
+     
+}
+
+tr:hover{
+
+    background-color: rgb(250, 250, 250)
+}
+
+td{
+    background-color:  rgb(255, 255, 255);
+    border-bottom: 2px solid black;
+    Padding: 15px 0px;
+    font-size: 12px;
+    vertical-align: top;
+    text-align:  center;
+    box-sizing: border-box;
+}
+
+.texto-elecciones-chico{
+    font-size: 12px;
+     Color: black;
+     height: bold
+}
+
+.texto-path-chico{
+   font-size: 11px;
+    Color: rgb(81, 180, 219);
+
+}
