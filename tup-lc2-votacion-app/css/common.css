@@ -1,0 +1,33 @@
+
+body{
+    margin: 0;
+    padding: 0%;
+}
+
+.headerprincipal{
+    background-color: rgb(76, 141, 214);
+
+}
+
+.logo{
+    background-color: rgb(76, 141, 214);
+    width: 200px;
+    height: 50px;
+    padding: 1%;
+}
+
+.informes-header{
+    background-color: #333;
+    padding: 10px;
+}
+
+.informes-header button{
+    background-color: #333; 
+    color: #333; 
+    padding: 5px 20px;
+    border: none;
+    border-radius: 20px;
+    border-color: white;
+    border-style: solid;
+}
+
