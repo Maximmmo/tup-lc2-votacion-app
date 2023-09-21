@@ -6,7 +6,12 @@
 
 }
 
-
+.linkpaso-header{
+    background-color: rgb(247, 7, 195);
+    color: white;
+    flex-direction: row;
+    
+}
 
 thead{
     text-align: center;
