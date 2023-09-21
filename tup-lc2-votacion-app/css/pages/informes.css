@@ -6,11 +6,55 @@
 
 }
 
-.linkpaso-header{
-    background-color: rgb(247, 7, 195);
+.sec-titulo{
+    display: flex;
+    justify-content: center;
+}
+ h3:first-child {
+ color: white;
+ background-color: rgb(5, 184, 5);
+ border-width: 200px;
+ margin-right: 400px;
+ margin-left: 400px;
+ Padding: 15px;
+ Border-radius: 10px;
+ font-size:20px;
+ font-weight: 200;
+ text-align: center;
+ 
+}
+
+h3:nth-child(2) {
     color: white;
-    flex-direction: row;
+    background-color: rgb(211, 211, 3);
+    border-width: 200px;
+    margin-right: 400px;
+    margin-left: 400px;
+    Padding: 15px;
+    Border-radius: 10px;
+    font-size:20px;
+    font-weight: 200;
+    text-align: center;
+   
+}
+
+ h3:nth-child(3) {
+    color: white;
+    background-color: red;
+    border-width: 200px;
+    margin-right: 400px;
+    margin-left: 400px;
+    Padding: 15px;
+    Border-radius: 10px;
+    font-size:20px;
+    font-weight: 200;
+    text-align: center;
     
+}
+
+h3 i.fa{
+    font-size: 20px;
+    color: white;
 }
 
 thead{
@@ -61,3 +105,30 @@ td{
     Color: rgb(81, 180, 219);
 
 }
+
+footer{
+    background-color: rgb(59, 59, 59);
+    color: rgb(99, 96, 96);
+    display: flex;
+}
+
+.Ministerio{
+    width: 150px;
+    height: 45px;
+}
+
+.logoFooter{
+    width: 150px;
+    height: 45px;
+}
+
+.logos{
+    width: 150px;
+    height: 45px;
+}
+
+h4{
+    flex-direction: row-reverse;
+    font-size: 15px;
+}
+
