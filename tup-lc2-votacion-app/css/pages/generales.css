@@ -1,0 +1,17 @@
+.container-menu {
+    display: flex;
+    background-color: #333;
+    height: 40px;
+    
+}
+
+.container-logo {
+    display: flex;
+    background-color: rgb(76, 141, 214);
+    height: auto;
+}
+
+.logo {
+    height: 40px;
+    width: auto;
+}

@@ -1,0 +1,23 @@
+
+.texto-titulo{
+    flex: 1;
+
+}
+
+.imagen-electoral{
+    margin-left: 20px;
+
+}
+
+.header-paso{
+    background-color: rgb(76, 141, 214);
+
+}
+
+.logo{
+    background-color: rgb(76, 141, 214);
+    width: 200px;
+    height: 50px;
+    padding: 1%;
+    margin-left: 20px;
+}
