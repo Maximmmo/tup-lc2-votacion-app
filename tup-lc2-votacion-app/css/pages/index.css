@@ -1,0 +1,15 @@
+.sec.titulo{
+    display: flex;
+    align-items: center;
+
+}
+
+.texto-titulo{
+    flex: 1;
+
+}
+
+.imagen-electoral{
+    margin-left: 20px;
+
+}
