@@ -23,7 +23,6 @@
     color: white;
     background-color: magenta;
     border-color: #333;
-    background-size:0%;
     border-radius: 5px;
     padding: 10px;
     font: #333;
@@ -31,8 +30,6 @@
     margin-left: 0px;
     margin-right: 0px;
     flex-direction: row;
-    
-    
     
 }
 
