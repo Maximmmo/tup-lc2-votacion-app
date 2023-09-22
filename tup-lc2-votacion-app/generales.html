@@ -6,39 +6,82 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sistema de Publicación de Resultados Electorales</title>
     <link rel="shortcut icon" type="image/png" href="img/icons/favicon-16x16.png">
+    <script src="https://kit.fontawesome.com/2e7d0dec67.js" crossorigin="anonymous"></script>
+
     <!-- Estilos CSS -->
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/pages/generales.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        crossorigin="anonymous" eferrerpolicy="no-referrer" />
 </head>
 
 
 <body>
-    <header class="header-generales">
+    <header>
         <!--Barra de logo portal-->
         <div class="container-logo">
             <img src="img/icons/Logo_DINE_negativo.a88f983e.png" alt="logo" class="logo">
         </div>
 
         <div class="container-menu">
-            <ul>
-                <li><a class="active" href="#informes">Informes</a></li>
-                <li><a href="#contact">Contacto</a></li>
-            </ul>
-        </div>
 
+            <nav class="menu-nav">
+                <ul>
+                    <li>
+                        <select name="año" id="año">
+                            <option>
+                                Año
+                            </option>
+                        </select>
+                        <span><i class="fa-solid fa-caret-down" style="color: #ffffff;"></i></span>
+                    </li>
+
+                    <li>
+                        <select name="cargo" id="cargo">
+                            <option>Cargo</option>
+                        </select>
+                        <span><i class="fa-solid fa-caret-down" style="color: #ffffff;"></i></span>
+                    </li>
+
+                    <li>
+                        <select name="distrito" id="distrito">
+                            <option>Distrito </option>
+                        </select>
+                        <span><i class="fa-solid fa-caret-down" style="color: #ffffff;"></i></span>
+                    </li>
+
+                    <input type="text" id="filtrar" name="filtrar" placeholder="FILTRAR">
+
+                    <a href="informes.html" class="boton-informes">INFORMES</a>
+
+                    <a href="index.html" class="boton-inicio">INICIO</a>
+                </ul>
+
+
+            </nav>
+
+        </div>
     </header>
+
+
     <!-- Contenido principal de la página -->
     <main>
         <section id="sec-titulo">
             <!--Seccion para agregar una palicula favorita por codigo-->
-            <h2>Titulo de Sección</h2>
-            <p>Párrafo o subtítulo</p>
-            <div>Imagen</div>
+            <h2>Elecciones 2021 | Generales</h2>
+            <p>2021 > Generales > Provisorio > Senadores/as Nacionales > Corrientes </p>
+            <br><br>
         </section>
         <section id="sec-contenido">
-            <!--Seccion para contenido de la página-->
+            <div>
+                <button class="add-informe" name="add-informe">+AGREGAR A INFORMES</button>
+
+                
+            </div>
         </section>
     </main>
+
+
     <!--Pie de página-->
     <footer>
         <p>Desarrollado con ♥ - LC2</p>
