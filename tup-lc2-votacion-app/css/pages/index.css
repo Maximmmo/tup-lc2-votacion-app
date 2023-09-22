@@ -4,12 +4,54 @@
 
 }
 
-.texto-titulo{
-    flex: 1;
-
-}
-
 .imagen-electoral{
     margin-left: 20px;
 
+}
+
+.linkpaso-header{
+    text-decoration: none;
+}
+
+.linkinformes-header{
+    text-decoration: none;
+}
+
+.linkgenerales-header{
+    text-decoration: none;
+}
+
+.linkpaso-header:hover{
+    background-color: #333;
+}
+
+.linkgenerales-header:hover{
+    background-color: #333;
+    
+}
+
+.linkinformes-header:hover{
+    background-color: #333;
+    border-style: none;
+}
+
+.imagen-electoral{
+    margin: 15px;
+    width: 350px;
+}
+
+.table-general{
+    margin-left: 80px;
+}
+
+.table-resultados{
+    display: flex;
+    justify-content: flex-start; /* El contenido se alinea hacia la izquierda */
+    align-items: center;
+}
+
+.table-informacion{
+    display: flex;
+    justify-content: flex-start; /* El contenido se alinea hacia la izquierda */
+    align-items: center;
 }
