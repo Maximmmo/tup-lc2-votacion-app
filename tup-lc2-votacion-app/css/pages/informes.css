@@ -5,6 +5,62 @@
 
 
 }
+.header-low{
+    background-color: #333;
+    display: flex;
+    
+}
+.consultar-header{
+    background-color: #333;
+    color: white;
+    font: #FFF;
+    flex-direction: row;
+    border-color: #333;
+
+}
+
+.linkpaso-header{
+    color: white;
+    background-color: magenta;
+    border-color: #333;
+    border-radius: 5px;
+    padding: 10px;
+    font: #333;
+    font-size: 12px;
+    margin-left: 0px;
+    margin-right: 0px;
+    flex-direction: row;
+    
+}
+
+.linkgenerales-header{
+    color: white;
+    border-color: #333;
+    background-color: skyblue;
+    border-radius: 5px;
+    padding: 5px;
+    font: #FFF;
+    font-size: 12px;
+    margin-right: 10px;
+    flex-direction: row
+
+}
+
+.linkindex-header{
+    color: white;
+    background-color: #333;
+    border-color: #333;
+    border-radius: 15px;
+    border-color: white;
+    border-width: 1px;
+    padding: 5px;
+    font: #FFF;
+    font-size: 15px;
+    border-style: solid;
+    flex-direction: row-reverse;
+
+
+}
 
 .sec-titulo{
     display: flex;
@@ -58,24 +114,31 @@ h3 i.fa{
 }
 
 thead{
-    text-align: center;
     color: black;
-    padding: 10px 20px;
-    font-size: 14px;
-    font-weight: bold;
-    text-transform: uppercase;
-    border-bottom:  2px solid black;
+    background-color: #FFF;
+    border-width: 200px;
+    margin-right: 400px;
+    margin-left: 400px;
+    Padding: 15px;
+    Border-radius: 10px;
+    font-size:20px;
+    font-weight: 200;
+    text-align: center;
     
 }
 
 th{
-    width: 1024px;
-    margin: 1 auto 50px auto;
-    border-radius: 15px;
-    border: 2px solid black;
-    border-collapse: collapse;
-     background-color: rgb(250, 250, 250);
-     box-sizing: border-box;
+    color: black;
+    background-color:rgb(216, 213, 213);
+    border-color: #333;
+    border-width: 200px;
+    margin-right: 400px;
+    margin-left: 400px;
+    Padding: 15px;
+    Border-radius: 10px;
+    font-size:20px;
+    font-weight: 200;
+    text-align: center;
      
 }
 
@@ -85,13 +148,17 @@ tr:hover{
 }
 
 td{
-    background-color:  rgb(255, 255, 255);
-    border-bottom: 2px solid black;
-    Padding: 15px 0px;
-    font-size: 12px;
-    vertical-align: top;
-    text-align:  center;
-    box-sizing: border-box;
+    color: black;
+    background-color:rgb(216, 213, 213);
+    border-color: #333;
+    border-width: 200px;
+    margin-right: 400px;
+    margin-left: 400px;
+    Padding: 15px;
+    Border-radius: 10px;
+    font-size:20px;
+    font-weight: 200;
+    text-align: center;
 }
 
 .texto-elecciones-chico{
@@ -110,6 +177,8 @@ footer{
     background-color: rgb(59, 59, 59);
     color: rgb(99, 96, 96);
     display: flex;
+    padding: 40px;
+    
 }
 
 .Ministerio{
@@ -132,3 +201,41 @@ h4{
     font-size: 15px;
 }
 
+
+
+tr td:nth-child(3) p:nth-child(1){
+    Color:#FFF;
+    background-color: skyblue;
+    border-radius: 10px;
+    Margin: 15px;
+    width: 184px;
+    height: 70px;
+    Padding: 0.5rem 1rem;
+    font-size: 17px;
+    
+}
+
+tr td:nth-child(3) p:nth-child(2){
+    Color: white;
+    background-color: magenta;
+    border-radius: 10px;
+    Margin: 15px;
+    width: 184px;
+    height: 70px;
+    Padding: 0.5rem 1rem;
+    font-size: 17px;
+    
+    
+    
+}
+
+tr td:nth-child(3) p:nth-child(3){
+    Color: white;
+    background-color: rgb(173, 73, 173);
+    border-radius: 10px;
+    Margin: 15px;
+    width: 184px;
+    height: 70px;
+    Padding: 0.5rem 1rem;
+    font-size: 15px;
+}
