@@ -131,3 +131,65 @@ main p {
     align-items: center;
 }
 
+.paso-generales img {
+    justify-content: center;
+    width: 50px;
+    height: 40px;
+    background-color: rgb(13, 181, 247);
+}
+
+.paso-generales {
+    margin-bottom: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 1003px;
+}
+
+.paso-generales ul li:first-child {
+    background-color:rgb(13, 181, 247);
+    font-weight: 1000;
+    height: auto;
+    border: none;
+    border-radius: 5px;
+    padding: 1px 100px;
+    color: white;
+
+}
+
+.paso-generales ul li:first-child {
+    background-color:rgb(13, 181, 247);
+    font-weight: 1000;
+    height: auto;
+    border: none;
+    border-radius: 5px;
+    padding: 1px 100px;
+    color: white;
+
+}
+
+.paso-generales ul li:first-child {
+    background-color:rgb(13, 181, 247);
+    font-weight: 1000;
+    height: auto;
+    border: none;
+    border-radius: 5px;
+    padding: 1px 100px;
+    color: white;
+
+}
+/*main #sec-contenido .paso-generales ul li :first-child{
+    display: flexbox;
+    background-color: rgb(41, 85, 232);
+    align-items: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    
+
+}
+
+main #sec-contenido .paso-generales ul li .mesas-computadas {
+    color: white;
+    font-weight: 600;
+}*/
+
