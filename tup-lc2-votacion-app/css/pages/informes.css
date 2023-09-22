@@ -210,7 +210,7 @@ tr td:nth-child(3) p:nth-child(1){
     width: 184px;
     height: 70px;
     Padding: 0.5rem 1rem;
-    font-size: 12px;
+    font-size: 17px;
     
 }
 
@@ -222,7 +222,7 @@ tr td:nth-child(3) p:nth-child(2){
     width: 184px;
     height: 70px;
     Padding: 0.5rem 1rem;
-    font-size: 12px;
+    font-size: 17px;
     
     
     
@@ -236,5 +236,5 @@ tr td:nth-child(3) p:nth-child(3){
     width: 184px;
     height: 70px;
     Padding: 0.5rem 1rem;
-    font-size: 12px;
+    font-size: 15px;
 }
