@@ -5,7 +5,10 @@
 }
 
 .imagen-electoral{
-    margin-left: 20px;
+    margin-left: 500px;
+    margin-right: 10px;
+    margin-top: 30px;
+    
 
 }
 
@@ -87,3 +90,49 @@ h4{
     flex-direction: row-reverse;
     font-size: 15px;
 }
+
+
+
+.paso-generales3{
+    display: flex;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 90px;
+
+}
+
+.paso-generales{
+    background-color: magenta;
+    border-radius: 10px;
+    margin: 25px;
+    width: 400px;
+    height: 100px;
+    padding: 1rem;
+    font: #FFF;
+    font-size: 28px;
+    
+
+}
+
+.paso-generales2{
+    background-color: skyblue;
+    border-radius: 10px;
+    margin: 25px;
+    width: 400px;
+    height: 100px;
+    padding: 1rem;
+    font: #FFF;
+    font-size: 28px;
+}
+
+.section-linkpaso{
+    text-decoration: none;
+    color: white;
+}
+
+.section-linkgenerales{
+    text-decoration: none;
+    color: white;
+}
+
