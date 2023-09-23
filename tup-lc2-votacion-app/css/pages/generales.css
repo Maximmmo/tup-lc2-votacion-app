@@ -122,61 +122,47 @@ main p {
     font-weight: 800;
     border: none;
     border-radius: 5px;
-    padding: 8px 35px;
+    padding: 10px 35px;
     font-size: small;
-    margin-left: 20px;
+    margin-right: 100px;
     text-decoration: none;
-    justify-content: initial;
+    justify-content: center;
     align-self: center;
     align-items: center;
 }
 
-.paso-generales img {
-    justify-content: center;
-    width: 50px;
-    height: 40px;
-    background-color: rgb(13, 181, 247);
-}
 
 .paso-generales {
-    margin-bottom: auto;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    padding: 5px 1003px;
+    padding: 0px 50px;
 }
 
-.paso-generales ul li:first-child {
-    background-color:rgb(13, 181, 247);
+h4 {
     font-weight: 1000;
     height: auto;
     border: none;
     border-radius: 5px;
-    padding: 1px 100px;
+    padding: 10px 20px;
     color: white;
 
 }
 
-.paso-generales ul li:first-child {
-    background-color:rgb(13, 181, 247);
-    font-weight: 1000;
-    height: auto;
-    border: none;
-    border-radius: 5px;
-    padding: 1px 100px;
-    color: white;
-
+.mesas-computadas {
+    background-color: rgb(75, 193, 240);
+    padding: 30px 30px;
 }
 
-.paso-generales ul li:first-child {
-    background-color:rgb(13, 181, 247);
-    font-weight: 1000;
-    height: auto;
-    border: none;
-    border-radius: 5px;
-    padding: 1px 100px;
-    color: white;
+.electores {
+    background-color: rgb(236, 55, 181);
+    padding: 30px 50px;
+}
 
+.part {
+    background-color: rgb(158, 51, 240);
+    padding: 30px 50px;
+}
 }
 /*main #sec-contenido .paso-generales ul li :first-child{
     display: flexbox;
