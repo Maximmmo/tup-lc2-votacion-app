@@ -1,15 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 * {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
+
+header {
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
 .container-menu {
     background-color: #333;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 30px;
-    padding: 5px 10px;
+    display: block;
+    justify-content: space-around;
+    padding: 1px;
 }
 
 .container-logo {
@@ -23,12 +28,11 @@
     width: auto;
 }
 
-li {
+header li {
     display: inline-block;
     list-style: none;
-    padding: 5px 10px;
+    padding: auto;
     justify-content: center;
-    margin-right: 15px;
 }
 
 header .container-menu .menu-nav select {
@@ -40,15 +44,16 @@ header .container-menu .menu-nav select {
     font-size: medium;
     appearance: none;
     width: 50px;
+    margin-bottom: auto;
 }
 
-input {
+#filtrar {
     background-color: #c8d0d9;
     color: #fff;
     border: none;
     text-align: center;
     border-radius: 50px;
-    padding: 10px 2px;
+    padding: 10px 5px;
     color: #333;
     width: 100px;
     cursor: pointer;
@@ -99,7 +104,7 @@ header .container-menu .menu-nav ul .boton-inicio {
 
 }*/
 
-#distrito{
+#distrito {
     width: auto;
 }
 
@@ -108,7 +113,6 @@ body {
 }
 
 main p {
-    
     color: rgb(0, 0, 253);
 }
 
@@ -163,19 +167,98 @@ h4 {
     background-color: rgb(158, 51, 240);
     padding: 30px 50px;
 }
+
+.cuadro-agrupacion {
+    display: grid;
+
+    background-color: #fff;
 }
-/*main #sec-contenido .paso-generales ul li :first-child{
-    display: flexbox;
-    background-color: rgb(41, 85, 232);
-    align-items: center;
-    padding: 20px 20px;
+
+footer {
+    background-color: rgb(59, 59, 59);
+    color: rgb(99, 96, 96);
+    display: block;
+    padding: 20px;
+
+}
+
+.Ministerio {
+    width: 150px;
+    height: 45px;
+}
+
+.logoFooter {
+    width: 150px;
+    height: 45px;
+}
+
+.logos {
+    width: 150px;
+    height: 45px;
+}
+
+h4 {
+    flex-direction: row-reverse;
+    font-size: 15px;
+}
+
+.menu-nav ul li i {
+    padding: auto auto;
+    margin: auto;
+}
+
+.cuadro-agrupacion {
+    display: inline-block;
+    justify-content: center;
+    background-color: #fff;
+    border: solid;
+    border-width: 1px;
+    border-color: #333;
+    margin-top: 100px;
+    margin-left: 10px;
     text-decoration: none;
-    
+    height: 400px;
+    width: 350px;
+    padding: 3rem;
 
 }
 
-main #sec-contenido .paso-generales ul li .mesas-computadas {
-    color: white;
-    font-weight: 600;
-}*/
+.cuadro-agrupacion .corrientes-png {
+    margin-left: 50px;
+}
 
+table {
+    border-collapse: separate;
+    border-spacing: 30px;
+    /* Espaciado entre celdas (en píxeles u otra unidad) */
+}
+
+table caption {
+    font-size: large;
+    font-weight: bold;
+    justify-content: start;
+}
+
+.graficos {
+    position: relative;
+    margin-left: auto;
+    margin-top: -500px;
+    width: 380px;
+    height: 490px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 5px;
+    display: flex;
+    justify-content: initial;
+}
+
+.bar {
+    flex-grow: 1;
+    background-color: #3498db;
+    margin: 0 5px;
+    transition: height 0.5s, background-color 0.5s;
+}
+
+.bar:hover {
+    background-color: #2980b9;
+}

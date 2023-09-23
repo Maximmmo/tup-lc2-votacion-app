@@ -161,47 +161,6 @@ td{
     text-align: center;
 }
 
-.texto-elecciones-chico{
-    font-size: 12px;
-     Color: black;
-     height: bold
-}
-
-.texto-path-chico{
-   font-size: 11px;
-    Color: rgb(81, 180, 219);
-
-}
-
-footer{
-    background-color: rgb(59, 59, 59);
-    color: rgb(99, 96, 96);
-    display: flex;
-    padding: 40px;
-    
-}
-
-.Ministerio{
-    width: 150px;
-    height: 45px;
-}
-
-.logoFooter{
-    width: 150px;
-    height: 45px;
-}
-
-.logos{
-    width: 150px;
-    height: 45px;
-}
-
-h4{
-    flex-direction: row-reverse;
-    font-size: 15px;
-}
-
-
 
 tr td:nth-child(3) p:nth-child(1){
     Color:#FFF;
@@ -237,5 +196,33 @@ tr td:nth-child(3) p:nth-child(3){
     width: 184px;
     height: 70px;
     Padding: 0.5rem 1rem;
+    font-size: 15px;
+}
+
+footer{
+    background-color: rgb(59, 59, 59);
+    color: rgb(99, 96, 96);
+    display: flex;
+    padding: 40px;
+    
+}
+
+.Ministerio{
+    width: 150px;
+    height: 45px;
+}
+
+.logoFooter{
+    width: 150px;
+    height: 45px;
+}
+
+.logos{
+    width: 150px;
+    height: 45px;
+}
+
+h4{
+    flex-direction: row-reverse;
     font-size: 15px;
 }
