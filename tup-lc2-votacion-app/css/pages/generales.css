@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
 
 * {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
@@ -121,7 +121,7 @@ main p {
 }
 
 .add-informe {
-    background-color: hsla(0, 1%, 51%, 0.923);
+    background-color: hsla(0, 3%, 78%, 0.923);
     color: rgb(255, 255, 255);
     font-weight: 800;
     border: none;
@@ -174,12 +174,13 @@ h4 {
     background-color: #fff;
 }
 
-footer {
+
+footer{
     background-color: rgb(59, 59, 59);
     color: rgb(99, 96, 96);
-    display: block;
-    padding: 20px;
-
+    display: flex;
+    padding: 40px;
+    
 }
 
 .Ministerio {
