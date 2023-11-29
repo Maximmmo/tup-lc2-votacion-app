@@ -251,6 +251,7 @@ table caption {
     padding: 5px;
     display: flex;
     justify-content: initial;
+    transform: rotate(180deg);
 }
 
 .bar {
