@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+* {
+    --magenta: #ee3d8f;
+    --celeste: #37bbed;
+    --morado: #9283be;
+    --gris-claro: #9e9e9e;
+    --titulos: #333;
+    --textos: #333;
+    --fondo-pantalla: rgb(235, 245, 251);
+    --fondo-Cabecera: #18a0fb;
+    --fondo-Footer: #333;
+    --fondo-Menu: #333;
+    --texto-footer: #9e9e9e;
+    --titulo-Grilla: #727272;
+    --borde-inferior-Grilla: #727272;
+    --borde-Grilla: #c5c5c5;
+    --grafica-amarillo: rgb(252, 210, 0);
+    --grafica-amarillo-claro: rgba(252, 210, 0, 0.3);
+    --grafica-celeste: rgb(0, 169, 232);
+    --grafica-celeste-claro: rgba(0, 169, 232, 0.3);
+    --grafica-bordo: rgb(171, 40, 40);
+    --grafica-bordo-claro: rgba(171, 40, 40, 0.3);
+    --grafica-lila: rgb(112, 76, 159);
+    --grafica-lila-claro: rgba(112, 76, 159, 0.5);
+    --grafica-lila2: rgb(77, 46, 110);
+    --grafica-lila2-claro: rgba(77, 46, 110, 0.5);
+    --grafica-gris: rgb(128, 128, 128);
+    --grafica-gris-claro: rgb(128, 128, 128, 0.5);
+    --grafica-verde: rgb(102, 171, 60);
+    --grafica-verde-claro: rgba(102, 171, 60, 0.5);
+    --mensaje-usuario-amarillo: #ffc107;
+    --mensaje-usuario-verde: #28a745;
+    --mensaje-usuario-rojo: #dc3545;
+}
+
+
+* {
+    font-family: 'Roboto';
+}
+
+p {
+    font-size: 12px;
+
+}
+
+h1 {
+    font-size: 26px;
+    padding-bottom: 20px;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+.logo {
+    background-color: var(--fondo-Cabecera);
+    width: 150px;
+    height: auto;
+}
+
+.container-logo {
+    width: 100%;
+    background-color: var(--fondo-Cabecera);
+}
+
+.container-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: var(--fondo-Menu);
+    margin-top: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.contenido-menu {
+    margin-top: 10px;
+    padding: 5px;
+    padding-bottom: 10px;
+    margin-left: 13px;
+    margin-right: 13px;
+    float: left;
+    width: max-content;
+}
+
+select {
+    background: transparent;
+    border: none;
+    font-size: 18px;
+    text-align: center;
+    color: var(--celeste);
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 0.3s ease;
+
+}
+
+select:hover {
+    color: white;
+}
+
+.filtrar {
+    background-color: white;
+    text-transform: uppercase;
+    border-radius: 15px;
+    padding: 5px;
+    margin-top: -3px;
+}
+
+.input-filtrar {
+    border: none;
+    text-align: center;
+    width: 70px;
+    outline: none;
+    font-size: 15px;
+    padding-right: 10px;
+    border-radius: 15px;
+}
+
+.filtrar button {
+    border: none;
+    background-color: transparent;
+    transition: color 0.3s ease;
+}
+
+.filtrar button:hover {
+    color: var(--celeste);
+}
+
+.boton-informes {
+    border-radius: 20px;
+    border: 1px solid white;
+    padding: 7px 20px;
+    margin-top: 20px;
+    color: #FFF;
+    font-size: 13px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.boton-informes:hover {
+    background-color: var(--gris-claro);
+}
+
+
+
+.boton-inicio {
+    justify-content: flex-end;
+    background-color: var(--gris-claro);
+    border-radius: 5px;
+    padding: 7px 30px;
+    color: #FFF;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    transition: color 0.3s;
+    text-decoration: none;
+}
+
+.boton-inicio:hover {
+    color: var(--textos);
+}
+
+
+
+/*MAIN-------------------------------------------------*/
+main {
+    margin: 20px;
+}
+
+
+.texto-path {
+    font-size: 14px;
+    font-family: 'Roboto';
+    color: var(--celeste);
+
+}
+
+
+
+.sec-contenido {
+    display: inline-flex;
+    background-color: beige;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+}
+
+.add-informe {
+    display: flex;
+    justify-content: center;
+    background-color: var(--gris-claro);
+    font-size: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    width: fit-content;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-informe input {
+    background-color: transparent;
+    outline: none;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    border: none;
+    text-transform: uppercase;
+    transition: color 0.3s;
+}
+
+.add-informe input:hover {
+    color: var(--textos);
+}
+
+.carteles {
+    display:flex;
+    justify-content: center;
+    margin: 15px;
+    width: 184px;
+    height: 70px;
+    padding: 0.5rem 1rem;
+    color: #fff;
+    align-self: center;
+    width: 100%;
+    font-size: 15px;
+}
+
+.mesas-escrutadas {
+    background-color: var(--celeste);
+    
+    border-radius: 10px;
+    
+
+}
+
+.mesas-escrutadas img {
+
+}
+
+.electores {
+}
+
+.electores img {
+}
+
+
+
+
+
+.participacion {
+
+}
+
+.participacion img {
+}

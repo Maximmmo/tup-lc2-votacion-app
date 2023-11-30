@@ -24,63 +24,48 @@
         </div>
 
         <div class="container-menu">
-
             <nav class="menu-nav">
-                <ul>
-                    <li>
-                        <select name="año" id="año">
-                            <option>Año</option>
-                        </select>
-                        <span><i class="fa-solid fa-caret-down" style="color: #ffffff;"></i></span>
-                    </li>
 
-                    <li>
-                        <select name="cargo" id="cargo">
-                            <option>Cargo</option>
-                        </select>
-                        <span><i class="fa-solid fa-caret-down" style="color: #ffffff;"></i></span>
-                    </li>
+                <select name="año" id="año">
+                    <option>Año</option>
+                </select>
 
-                    <li>
-                        <select name="distrito" id="distrito">
-                            <option>Distrito </option>
-                        </select>
-                        <span><i class="fa-solid fa-caret-down" style="color: #ffffff;"></i></span>
-                    </li>
+                <select name="cargo" id="cargo">
+                    <option>Cargo</option>
+                </select>
 
+                <select name="distrito" id="distrito">
+                    <option>Distrito </option>
+                </select>
+
+                <!--Filtrar-->
                     <input type="text" id="filtrar" name="filtrar" placeholder="FILTRAR">
+                    <i class="fa fa-search" aria-hidden="true" id="search-icon"></i>
+                
 
-                    <a href="informes.html" class="boton-informes">INFORMES</a>
-
-                    <a href="index.html" class="boton-inicio">INICIO</a>
-                </ul>
-
-
+                <a href="informes.html" class="boton-informes">INFORMES</a>
+                <a href="index.html" class="boton-inicio">INICIO</a>
+                
             </nav>
-
         </div>
     </header>
 
 
     <!-- Contenido principal de la página -->
     <main>
-        <section id="sec-titulo">
+        <section>
             <!--Seccion para agregar una palicula favorita por codigo-->
             <h2>Elecciones 2021 | Generales</h2>
-            <p>2021 > Generales > Provisorio > Senadores/as Nacionales > Corrientes </p>
+            <p class="texto-path">2020 > Generales > Provisorio > Senadores Nacionales > Buenos
+                Aires</p>
             <br><br>
         </section>
 
         <section id="sec-contenido">
-
             <div class="paso-generales">
-
-                <input type="submit" class="add-informe" value="AGREGAR A INFORMES">
-                
+                <input type="submit" class="add-informe" value=" + AGREGAR A INFORMES">
                 <h4 class="mesas-computadas"><b>Mesas computadas</b><br>2.586</h4>
-
                 <h4 class="electores"><b>Electores</b><br>876.580</h4>
-
                 <h4 class="part"><b>Participacion sobre el escrutado</b><br>2.586</h4>
             </div>
 
@@ -143,3 +128,5 @@
         </div>
     </footer>
 </body>
+
+INFORMES
