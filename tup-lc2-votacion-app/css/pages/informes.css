@@ -24,13 +24,13 @@
     background-color: magenta;
     border-color: #333;
     border-radius: 5px;
-    padding: 10px;
+    padding: 5px;
     font: #333;
     font-size: 12px;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
     flex-direction: row;
-    
+    text-decoration: none;
 }
 
 .linkgenerales-header{
@@ -41,16 +41,17 @@
     padding: 5px;
     font: #FFF;
     font-size: 12px;
-    margin-right: 10px;
-    flex-direction: row
-
+    margin-right: 0px;
+    margin-left: 0px;
+    flex-direction: row;
+    text-decoration: none;
 }
 
 .linkindex-header{
     color: white;
     background-color: #333;
     border-color: #333;
-    border-radius: 15px;
+    border-radius: 5px;
     border-color: white;
     border-width: 1px;
     padding: 5px;
@@ -58,6 +59,7 @@
     font-size: 15px;
     border-style: solid;
     flex-direction: row-reverse;
+    text-decoration: none;
 
 
 }

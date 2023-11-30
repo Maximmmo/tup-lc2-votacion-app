@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
 
 * {
     * {
@@ -220,14 +220,102 @@ main p {
 }*/
 
 .add-informe {
-    background-color: #9e9e9e;
-    color: #fff;
-    border-color: white;
+    background-color: hsla(0, 1%, 51%, 0.923);
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    border: none;
     border-radius: 5px;
+    padding: 10px 35px;
+    font-size: small;
+    margin-right: 100px;
+    text-decoration: none;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+}
+
+
+.paso-generales {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+}
+
+h4 {
+    font-weight: 1000;
+    height: auto;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: white;
+
+}
+
+.mesas-computadas {
+    background-color: rgb(75, 193, 240);
+    padding: 30px 30px;
+}
+
+.electores {
+    background-color: rgb(236, 55, 181);
+    padding: 30px 50px;
+}
+
+.part {
+    background-color: rgb(158, 51, 240);
+    padding: 30px 50px;
+}
+
+.cuadro-agrupacion {
+    display: grid;
+
+    background-color: #fff;
+}
+
+footer {
+    background-color: rgb(59, 59, 59);
+    color: rgb(99, 96, 96);
+    display: block;
+    padding: 20px;
+
+}
+
+.Ministerio {
+    width: 150px;
+    height: 45px;
+}
+
+.logoFooter {
+    width: 150px;
+    height: 45px;
+}
+
+.logos {
+    width: 150px;
+    height: 45px;
+}
+
+h4 {
+    flex-direction: row-reverse;
+    font-size: 15px;
+}
+
+.menu-nav ul li i {
+    padding: auto auto;
+    margin: auto;
+}
+
+.cuadro-agrupacion {
+    display: inline-block;
+    justify-content: center;
+    background-color: #fff;
+    border: solid;
     border-width: 1px;
     text-align: center;
     padding: 5px;
-    text-transform: uppercase;
+    display: flex;
+    justify-content: initial;
 }
 
 .add-informe :hover {
