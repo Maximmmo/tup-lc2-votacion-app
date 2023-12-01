@@ -69,7 +69,7 @@ h3 {
     background-color: var(--fondo-Cabecera);
 }
 
-.container-menu {
+.menu-nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -153,7 +153,6 @@ select:hover {
 
 
 .boton-inicio {
-    justify-content: flex-end;
     background-color: var(--gris-claro);
     border-radius: 5px;
     padding: 7px 30px;
@@ -168,6 +167,7 @@ select:hover {
 .boton-inicio:hover {
     color: var(--textos);
 }
+
 
 
 
@@ -187,11 +187,9 @@ main {
 
 
 .sec-contenido {
-    display: inline-flex;
-    background-color: beige;
-    justify-content: flex-end;
-    align-items: center;
-    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
 }
 
 .add-informe {
@@ -223,43 +221,102 @@ main {
 }
 
 .carteles {
-    display:flex;
-    justify-content: center;
-    margin: 15px;
-    width: 184px;
-    height: 70px;
-    padding: 0.5rem 1rem;
-    color: #fff;
-    align-self: center;
-    width: 100%;
-    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+
 }
 
 .mesas-escrutadas {
+    display: flex;
     background-color: var(--celeste);
-    
+    margin: 15px;
+    width: 184px;
+    height: 70px;
+    color: #fff;
     border-radius: 10px;
-    
+    padding: 0.5rem 1rem;
+    font-size: 15px;
 
 }
 
-.mesas-escrutadas img {
-
-}
 
 .electores {
+    display: flex;
+    background-color: var(--magenta);
+    margin: 15px;
+    width: 184px;
+    height: 70px;
+    color: #fff;
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+    font-size: 15px;
 }
-
-.electores img {
-}
-
-
-
 
 
 .participacion {
-
+    display: flex;
+    background-color: var(--morado);
+    margin: 15px;
+    width: 184px;
+    height: 70px;
+    color: #fff;
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+    font-size: 15px;
 }
 
-.participacion img {
+
+/*AVANCE 1-12 CABECERA Y PRIMER PARTE DEL MAIN HECHAS*/
+
+
+.cuadro-agrupacion {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.recuadro {
+    border-radius: 25px;
+    border: 1px var(--borde-Grilla) solid;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    Padding: 1.8em 0 0 0;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.titulo-recuadro {
+    font-weight: bold;
+    padding: 1.8em 0 0 0;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.scroll-vertical {
+    overflow-y: scroll;
+    height: 325px;
+}
+
+.texto-agrupaciones {
+    font-size: 11px;
+    color: var(--textos);
+    padding: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.titulo-agrupacion {
+    font-size: 12px;
+    font-weight: bold;
+    border-bottom: 1px solid var(--borde-Grilla);
+    margin-bottom: 10px;
+}
+
+.bar {
+    height: 35px;
+    width: var(--bar-value);
+    background-color: var(--bar-color);
+    border-radius: 5px;
+    margin-bottom: 10px;
 }
