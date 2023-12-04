@@ -40,6 +40,11 @@
     font-family: 'Roboto';
 }
 
+body {
+background-color: var(--fondo-pantalla);
+
+}
+
 p {
     font-size: 12px;
 
@@ -56,6 +61,10 @@ h2 {
 
 h3 {
     font-size: 18px;
+}
+
+h6 {
+    color: var(--textos);
 }
 
 .logo {
@@ -94,7 +103,7 @@ select {
     border: none;
     font-size: 18px;
     text-align: center;
-    color: var(--celeste);
+    color: white;
     font-weight: bold;
     text-decoration: none;
     cursor: pointer;
@@ -156,8 +165,8 @@ select:hover {
     background-color: var(--gris-claro);
     border-radius: 5px;
     padding: 7px 30px;
-    color: #FFF;
-    font-size: 15px;
+    color: #000000;
+    font-weight: bold;
     text-transform: uppercase;
     text-align: center;
     transition: color 0.3s;
@@ -193,23 +202,20 @@ main {
 }
 
 .add-informe {
-    display: flex;
-    justify-content: center;
+    align-self: center;
     background-color: var(--gris-claro);
     font-size: 10px;
     padding: 5px;
     border-radius: 5px;
     width: fit-content;
     height: fit-content;
-    justify-content: center;
-    align-items: center;
 }
 
 .add-informe input {
     background-color: transparent;
     outline: none;
     color: white;
-    padding: 5px;
+    padding: 5px 30px;
     cursor: pointer;
     border: none;
     text-transform: uppercase;
@@ -220,9 +226,16 @@ main {
     color: var(--textos);
 }
 
+.vacio {
+    display: flex;
+    width: 200px;
+}
+
 .carteles {
     display: flex;
     flex-direction: row;
+    width: 100%;
+    margin-left: 10%;
 
 }
 
@@ -268,28 +281,35 @@ main {
 
 /*AVANCE 1-12 CABECERA Y PRIMER PARTE DEL MAIN HECHAS*/
 
+.sector-main {
+    width: 100%;
+    margin: 0px;
+    padding: 0%;
+}
 
 .cuadro-agrupacion {
     margin-top: 20px;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    width: 100%;
 }
 
 .recuadro {
-    border-radius: 25px;
+    border-radius: 5px ;
     border: 1px var(--borde-Grilla) solid;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-    margin-bottom: 20px;
-    Padding: 1.8em 0 0 0;
-    text-align: center;
+    margin: 5px 5px;
+    padding: 5px 15px;
+    text-align: start;
     white-space: nowrap;
+    width: 100%;
 }
 
 .titulo-recuadro {
     font-weight: bold;
-    padding: 1.8em 0 0 0;
-    text-align: center;
+    padding: 5px;
+    text-align: start;
     white-space: nowrap;
 }
 
@@ -307,16 +327,27 @@ main {
 }
 
 .titulo-agrupacion {
-    font-size: 12px;
+    font-size: 15px;
     font-weight: bold;
     border-bottom: 1px solid var(--borde-Grilla);
     margin-bottom: 10px;
 }
 
 .bar {
-    height: 35px;
+    height: 12px;
     width: var(--bar-value);
-    background-color: var(--bar-color);
+    background-color: var(--grafica-verde);
     border-radius: 5px;
     margin-bottom: 10px;
 }
+
+.partido {
+    display: flex;
+    justify-content: space-between;
+}
+
+#bar-frente-de-todos {
+    background-color: var(--grafica-celeste);
+}
+
+
