@@ -116,12 +116,12 @@
  h3:first-child {
  color: white;
  background-color: #28a745; 
- border-width: 200px;
- margin-right: 400px;
- margin-left: 400px;
+ width: 400px;
+ margin: 20px auto;
+ Padding: 15px;
  Padding: 15px;
  Border-radius: 10px;
- font-size:20px;
+ font-size:12px;
  font-weight: 200;
  text-align: center;
  
@@ -130,12 +130,11 @@
 h3:nth-child(2) {
     color: white;
     background-color: #ffc107;
-    border-width: 200px;
-    margin-right: 400px;
-    margin-left: 400px;
+    width: 400px;
+    margin: 20px auto;
     Padding: 15px;
     Border-radius: 10px;
-    font-size:20px;
+    font-size:12px;
     font-weight: 200;
     text-align: center;
    
@@ -144,12 +143,12 @@ h3:nth-child(2) {
  h3:nth-child(3) {
     color: white;
     background-color: #dc3545;
-    border-width: 200px;
-    margin-right: 400px;
-    margin-left: 400px;
+    width: 400px;
+    margin: 20px auto;
+    Padding: 15px;
     Padding: 15px;
     Border-radius: 10px;
-    font-size:20px;
+    font-size:12px;
     font-weight: 200;
     text-align: center;
     
